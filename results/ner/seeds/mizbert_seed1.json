@@ -1,0 +1,21 @@
+{
+  "model": "robzchhangte/MizBERT",
+  "seed": 1,
+  "hours": 1.67,
+  "f1_micro": 0.8802,
+  "f1_macro": 0.7306,
+  "token_accuracy_entity": 88.4,
+  "per_type": {
+    "EVENT": 0.5699,
+    "FAC": 0.5845,
+    "GPE": 0.8888,
+    "LANGUAGE": 0.8004,
+    "LAW": 0.6939,
+    "LOC": 0.7204,
+    "NORP": 0.7939,
+    "ORG": 0.7966,
+    "PERSON": 0.921,
+    "PRODUCT": 0.436,
+    "WORK_OF_ART": 0.8313
+  }
+}

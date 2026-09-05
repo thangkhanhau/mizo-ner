@@ -1,0 +1,165 @@
+{
+  "model": "models\\mizo_ner_v2",
+  "max_len": 96,
+  "test_sentences": 44118,
+  "gold_entities": 58598,
+  "overall": {
+    "token_accuracy_all": 97.65,
+    "token_accuracy_entity": 87.75,
+    "precision_micro": 0.8653,
+    "recall_micro": 0.8827,
+    "f1_micro": 0.8739,
+    "precision_macro": 0.7155,
+    "recall_macro": 0.7206,
+    "f1_macro": 0.7141
+  },
+  "overall_previous_run": {
+    "token_accuracy_all": 97.84,
+    "token_accuracy_entity": 82.07,
+    "precision_micro": 0.8378,
+    "recall_micro": 0.8686,
+    "f1_micro": 0.8529,
+    "precision_macro": 0.6703,
+    "recall_macro": 0.6993,
+    "f1_macro": 0.6803
+  },
+  "per_type": {
+    "EVENT": {
+      "precision": 0.5,
+      "recall": 0.5778,
+      "f1": 0.5361,
+      "support": 90,
+      "f1_previous": 0.4222
+    },
+    "FAC": {
+      "precision": 0.6487,
+      "recall": 0.5535,
+      "f1": 0.5974,
+      "support": 327,
+      "f1_previous": 0.5564
+    },
+    "GPE": {
+      "precision": 0.8663,
+      "recall": 0.8921,
+      "f1": 0.879,
+      "support": 11495,
+      "f1_previous": 0.8456
+    },
+    "LANGUAGE": {
+      "precision": 0.6858,
+      "recall": 0.8747,
+      "f1": 0.7688,
+      "support": 479,
+      "f1_previous": 0.7432
+    },
+    "LAW": {
+      "precision": 0.6282,
+      "recall": 0.7206,
+      "f1": 0.6712,
+      "support": 68,
+      "f1_previous": 0.6466
+    },
+    "LOC": {
+      "precision": 0.6906,
+      "recall": 0.7014,
+      "f1": 0.696,
+      "support": 700,
+      "f1_previous": 0.6443
+    },
+    "NORP": {
+      "precision": 0.8147,
+      "recall": 0.7379,
+      "f1": 0.7744,
+      "support": 1942,
+      "f1_previous": 0.7603
+    },
+    "ORG": {
+      "precision": 0.7817,
+      "recall": 0.802,
+      "f1": 0.7917,
+      "support": 10196,
+      "f1_previous": 0.776
+    },
+    "PERSON": {
+      "precision": 0.9066,
+      "recall": 0.9275,
+      "f1": 0.9169,
+      "support": 32629,
+      "f1_previous": 0.9045
+    },
+    "PRODUCT": {
+      "precision": 0.5132,
+      "recall": 0.3333,
+      "f1": 0.4042,
+      "support": 291,
+      "f1_previous": 0.3514
+    },
+    "WORK_OF_ART": {
+      "precision": 0.8342,
+      "recall": 0.8058,
+      "f1": 0.8198,
+      "support": 381,
+      "f1_previous": 0.833
+    }
+  },
+  "correlation": {
+    "spearman_rho": 0.8364,
+    "spearman_p": 0.0013,
+    "pearson_log_r": 0.7214,
+    "pearson_log_p": 0.0122
+  },
+  "confusions_top10": [
+    {
+      "gold": "ORG",
+      "pred": "PERSON",
+      "count": 1058
+    },
+    {
+      "gold": "PERSON",
+      "pred": "ORG",
+      "count": 872
+    },
+    {
+      "gold": "GPE",
+      "pred": "PERSON",
+      "count": 581
+    },
+    {
+      "gold": "PERSON",
+      "pred": "GPE",
+      "count": 547
+    },
+    {
+      "gold": "GPE",
+      "pred": "ORG",
+      "count": 391
+    },
+    {
+      "gold": "ORG",
+      "pred": "GPE",
+      "count": 379
+    },
+    {
+      "gold": "NORP",
+      "pred": "LANGUAGE",
+      "count": 187
+    },
+    {
+      "gold": "NORP",
+      "pred": "PERSON",
+      "count": 153
+    },
+    {
+      "gold": "ORG",
+      "pred": "NORP",
+      "count": 86
+    },
+    {
+      "gold": "PRODUCT",
+      "pred": "ORG",
+      "count": 81
+    }
+  ],
+  "entity_tokens_missed": 2355,
+  "spurious_entity_tokens": 3451
+}

@@ -1,0 +1,89 @@
+{
+  "test_sentences": 22059,
+  "ner_seen": 17653,
+  "ner_unseen": 4406,
+  "markup_agreement": {
+    "precision": 0.8648,
+    "recall": 0.8717,
+    "f1": 0.8682,
+    "matched": 25701,
+    "spurious": 4018,
+    "missed": 3784
+  },
+  "entities_predicted": 29719,
+  "entities_oracle": 29634,
+  "scores_all": {
+    "baseline": {
+      "bleu": 49.21,
+      "chrf": 68.39
+    },
+    "marked": {
+      "bleu": 49.53,
+      "chrf": 68.57
+    },
+    "predicted": {
+      "bleu": 49.12,
+      "chrf": 68.37
+    },
+    "predicted_raw": {
+      "bleu": 48.23,
+      "chrf": 67.99
+    }
+  },
+  "scores_unseen": {
+    "baseline": {
+      "bleu": 49.65,
+      "chrf": 68.55
+    },
+    "marked": {
+      "bleu": 50.15,
+      "chrf": 68.85
+    },
+    "predicted": {
+      "bleu": 49.61,
+      "chrf": 68.54
+    },
+    "predicted_raw": {
+      "bleu": 48.84,
+      "chrf": 68.25
+    }
+  },
+  "bootstrap": {
+    "oracle vs baseline, all": {
+      "mean": 0.3272,
+      "lo": 0.1386,
+      "hi": 0.527,
+      "wins": 1000,
+      "losses": 0,
+      "p": 0.0,
+      "n": 22059
+    },
+    "predicted vs baseline, all": {
+      "mean": -0.088,
+      "lo": -0.2978,
+      "hi": 0.1219,
+      "wins": 195,
+      "losses": 805,
+      "p": 0.805,
+      "n": 22059
+    },
+    "predicted vs baseline, unseen": {
+      "mean": -0.0458,
+      "lo": -0.5213,
+      "hi": 0.3996,
+      "wins": 431,
+      "losses": 569,
+      "p": 0.569,
+      "n": 4406
+    },
+    "oracle vs predicted, all": {
+      "mean": 0.4152,
+      "lo": 0.3336,
+      "hi": 0.5013,
+      "wins": 1000,
+      "losses": 0,
+      "p": 0.0,
+      "n": 22059
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "token_accuracy_all": 97.31,
+  "token_accuracy_entity": 86.22,
+  "precision_micro": 0.8696,
+  "recall_micro": 0.8697,
+  "f1_micro": 0.8697,
+  "f1_macro": 0.7504,
+  "per_type": {
+    "EVENT": {
+      "precision": 0.6901,
+      "recall": 0.5444,
+      "f1": 0.6087,
+      "support": 90
+    },
+    "FAC": {
+      "precision": 0.7791,
+      "recall": 0.5933,
+      "f1": 0.6736,
+      "support": 327
+    },
+    "GPE": {
+      "precision": 0.8668,
+      "recall": 0.8753,
+      "f1": 0.871,
+      "support": 11495
+    },
+    "LANGUAGE": {
+      "precision": 0.747,
+      "recall": 0.7829,
+      "f1": 0.7645,
+      "support": 479
+    },
+    "LAW": {
+      "precision": 0.8571,
+      "recall": 0.7059,
+      "f1": 0.7742,
+      "support": 68
+    },
+    "LOC": {
+      "precision": 0.6886,
+      "recall": 0.7014,
+      "f1": 0.695,
+      "support": 700
+    },
+    "NORP": {
+      "precision": 0.8225,
+      "recall": 0.7564,
+      "f1": 0.7881,
+      "support": 1942
+    },
+    "ORG": {
+      "precision": 0.789,
+      "recall": 0.7885,
+      "f1": 0.7888,
+      "support": 10196
+    },
+    "PERSON": {
+      "precision": 0.9056,
+      "recall": 0.9134,
+      "f1": 0.9095,
+      "support": 32629
+    },
+    "PRODUCT": {
+      "precision": 0.7219,
+      "recall": 0.4192,
+      "f1": 0.5304,
+      "support": 291
+    },
+    "WORK_OF_ART": {
+      "precision": 0.8796,
+      "recall": 0.8241,
+      "f1": 0.8509,
+      "support": 381
+    }
+  },
+  "training_hours": 0.33,
+  "train_sentences": 352941,
+  "subsampled": false
+}

@@ -1,0 +1,102 @@
+{
+  "model": "robzchhangte/MizBERT",
+  "max_len": 64,
+  "parameters_M": 108.9,
+  "training_hours": 1.71,
+  "token_accuracy_all": 97.75,
+  "token_accuracy_entity": 88.27,
+  "f1_micro": 0.8788,
+  "precision_micro": 0.8716,
+  "recall_micro": 0.8861,
+  "f1_macro": 0.7274,
+  "per_type": {
+    "EVENT": {
+      "precision": 0.5567,
+      "recall": 0.6,
+      "f1": 0.5775,
+      "support": 90
+    },
+    "FAC": {
+      "precision": 0.6111,
+      "recall": 0.5382,
+      "f1": 0.5724,
+      "support": 327
+    },
+    "GPE": {
+      "precision": 0.8791,
+      "recall": 0.895,
+      "f1": 0.887,
+      "support": 11495
+    },
+    "LANGUAGE": {
+      "precision": 0.771,
+      "recall": 0.8434,
+      "f1": 0.8056,
+      "support": 479
+    },
+    "LAW": {
+      "precision": 0.7015,
+      "recall": 0.6912,
+      "f1": 0.6963,
+      "support": 68
+    },
+    "LOC": {
+      "precision": 0.6858,
+      "recall": 0.7357,
+      "f1": 0.7099,
+      "support": 700
+    },
+    "NORP": {
+      "precision": 0.817,
+      "recall": 0.7791,
+      "f1": 0.7976,
+      "support": 1942
+    },
+    "ORG": {
+      "precision": 0.7889,
+      "recall": 0.8038,
+      "f1": 0.7963,
+      "support": 10196
+    },
+    "PERSON": {
+      "precision": 0.9101,
+      "recall": 0.9291,
+      "f1": 0.9195,
+      "support": 32629
+    },
+    "PRODUCT": {
+      "precision": 0.5,
+      "recall": 0.378,
+      "f1": 0.4305,
+      "support": 291
+    },
+    "WORK_OF_ART": {
+      "precision": 0.8177,
+      "recall": 0.8005,
+      "f1": 0.809,
+      "support": 381
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "f1": 0.8341063027593342
+    },
+    {
+      "epoch": 2,
+      "f1": 0.8564103861495518
+    },
+    {
+      "epoch": 3,
+      "f1": 0.868403338718363
+    },
+    {
+      "epoch": 4,
+      "f1": 0.8755276224633941
+    },
+    {
+      "epoch": 5,
+      "f1": 0.8773710791682854
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "test_sentences": 22059,
+  "beam": 4,
+  "sacrebleu_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+  "corpus": {
+    "baseline": {
+      "bleu": 49.21,
+      "chrf": 68.39
+    },
+    "marked": {
+      "bleu": 49.53,
+      "chrf": 68.57
+    }
+  },
+  "delta_bleu": 0.327,
+  "delta_chrf": 0.18,
+  "bootstrap": {
+    "replicates": 1000,
+    "mean_diff": 0.327,
+    "ci_low": 0.139,
+    "ci_high": 0.527,
+    "marked_wins": 1000,
+    "baseline_wins": 0,
+    "p_value": 0.0
+  },
+  "sentence_level": {
+    "marked_better": 4707,
+    "baseline_better": 4460,
+    "no_difference": 12892
+  },
+  "per_entity": [
+    {
+      "entity": "PERSON",
+      "sentences": 13719,
+      "baseline": 51.84,
+      "marked": 51.81,
+      "delta": -0.02
+    },
+    {
+      "entity": "GPE",
+      "sentences": 5077,
+      "baseline": 49.48,
+      "marked": 50.09,
+      "delta": 0.61
+    },
+    {
+      "entity": "ORG",
+      "sentences": 4645,
+      "baseline": 47.61,
+      "marked": 48.27,
+      "delta": 0.66
+    },
+    {
+      "entity": "NORP",
+      "sentences": 1000,
+      "baseline": 47.17,
+      "marked": 47.62,
+      "delta": 0.45
+    },
+    {
+      "entity": "LOC",
+      "sentences": 341,
+      "baseline": 48.78,
+      "marked": 49.17,
+      "delta": 0.4
+    },
+    {
+      "entity": "LANGUAGE",
+      "sentences": 226,
+      "baseline": 48.92,
+      "marked": 48.03,
+      "delta": -0.89
+    },
+    {
+      "entity": "WORK_OF_ART",
+      "sentences": 201,
+      "baseline": 34.61,
+      "marked": 36.23,
+      "delta": 1.62
+    },
+    {
+      "entity": "PRODUCT",
+      "sentences": 174,
+      "baseline": 48.96,
+      "marked": 49.47,
+      "delta": 0.51
+    },
+    {
+      "entity": "FAC",
+      "sentences": 166,
+      "baseline": 52.41,
+      "marked": 54.32,
+      "delta": 1.91
+    },
+    {
+      "entity": "EVENT",
+      "sentences": 31,
+      "baseline": 39.44,
+      "marked": 45.38,
+      "delta": 5.94
+    },
+    {
+      "entity": "LAW",
+      "sentences": 21,
+      "baseline": 54.94,
+      "marked": 54.28,
+      "delta": -0.66
+    }
+  ],
+  "previous_run": {
+    "note": "corrupted source text",
+    "baseline_bleu": 49.74,
+    "marked_bleu": 50.06,
+    "delta_bleu": 0.33,
+    "delta_chrf": 0.24
+  },
+  "note": "Markup from the corrected projection, not from the NER model. Upper bound on a recognizer-driven pipeline."
+}

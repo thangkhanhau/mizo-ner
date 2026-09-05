@@ -1,0 +1,13 @@
+{
+  "annotators": [
+    "A",
+    "B"
+  ],
+  "sentences": 300,
+  "tokens": 3644,
+  "raw_agreement_pct": 95.09,
+  "cohen_kappa_labels": 0.7979,
+  "cohen_kappa_binary": 0.8856,
+  "entity_f1_between_annotators": 0.7087,
+  "sentences_with_disagreement": 110
+}

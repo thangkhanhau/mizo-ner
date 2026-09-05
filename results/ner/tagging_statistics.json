@@ -1,0 +1,50 @@
+{
+  "gold": {
+    "total_sentences": 1000,
+    "total_entities": 409,
+    "avg_entities_per_sentence": 0.409,
+    "entity_type_distribution": {
+      "PERSON": 93,
+      "CARDINAL": 54,
+      "ORG": 49,
+      "NORP": 18,
+      "MONEY": 3,
+      "GPE": 83,
+      "PRODUCT": 3,
+      "DATE": 51,
+      "QUANTITY": 2,
+      "WORK_OF_ART": 15,
+      "ORDINAL": 8,
+      "LOC": 8,
+      "LANGUAGE": 3,
+      "TIME": 16,
+      "LAW": 2,
+      "PERCENT": 1
+    }
+  },
+  "silver": {
+    "total_sentences": 10000,
+    "total_entities": 7560,
+    "avg_entities_per_sentence": 0.756,
+    "entity_type_distribution": {
+      "PERSON": 1890,
+      "DATE": 994,
+      "LANGUAGE": 54,
+      "GPE": 1237,
+      "NORP": 254,
+      "TIME": 255,
+      "CARDINAL": 834,
+      "ORG": 1526,
+      "WORK_OF_ART": 47,
+      "ORDINAL": 169,
+      "EVENT": 37,
+      "QUANTITY": 32,
+      "FAC": 39,
+      "PRODUCT": 44,
+      "LAW": 11,
+      "LOC": 70,
+      "MONEY": 33,
+      "PERCENT": 34
+    }
+  }
+}

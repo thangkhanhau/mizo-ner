@@ -1,0 +1,102 @@
+{
+  "model": "bert-base-multilingual-cased",
+  "max_len": 96,
+  "parameters_M": 177.3,
+  "training_hours": 7.14,
+  "token_accuracy_all": 97.79,
+  "token_accuracy_entity": 88.44,
+  "f1_micro": 0.881,
+  "precision_micro": 0.873,
+  "recall_micro": 0.8891,
+  "f1_macro": 0.7347,
+  "per_type": {
+    "EVENT": {
+      "precision": 0.5364,
+      "recall": 0.6556,
+      "f1": 0.59,
+      "support": 90
+    },
+    "FAC": {
+      "precision": 0.6283,
+      "recall": 0.5841,
+      "f1": 0.6054,
+      "support": 327
+    },
+    "GPE": {
+      "precision": 0.8707,
+      "recall": 0.8956,
+      "f1": 0.883,
+      "support": 11495
+    },
+    "LANGUAGE": {
+      "precision": 0.7294,
+      "recall": 0.8497,
+      "f1": 0.785,
+      "support": 479
+    },
+    "LAW": {
+      "precision": 0.6494,
+      "recall": 0.7353,
+      "f1": 0.6897,
+      "support": 68
+    },
+    "LOC": {
+      "precision": 0.6844,
+      "recall": 0.7529,
+      "f1": 0.717,
+      "support": 700
+    },
+    "NORP": {
+      "precision": 0.8149,
+      "recall": 0.7662,
+      "f1": 0.7898,
+      "support": 1942
+    },
+    "ORG": {
+      "precision": 0.7975,
+      "recall": 0.8213,
+      "f1": 0.8092,
+      "support": 10196
+    },
+    "PERSON": {
+      "precision": 0.915,
+      "recall": 0.9277,
+      "f1": 0.9213,
+      "support": 32629
+    },
+    "PRODUCT": {
+      "precision": 0.4941,
+      "recall": 0.4296,
+      "f1": 0.4596,
+      "support": 291
+    },
+    "WORK_OF_ART": {
+      "precision": 0.8414,
+      "recall": 0.8215,
+      "f1": 0.8313,
+      "support": 381
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "f1": 0.8339117583567195
+    },
+    {
+      "epoch": 2,
+      "f1": 0.8579701825181082
+    },
+    {
+      "epoch": 3,
+      "f1": 0.8713232191977318
+    },
+    {
+      "epoch": 4,
+      "f1": 0.8789260385005065
+    },
+    {
+      "epoch": 5,
+      "f1": 0.8831013043184429
+    }
+  ]
+}

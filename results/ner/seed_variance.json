@@ -1,0 +1,61 @@
+{
+  "seeds_per_model": {
+    "mizbert": 3,
+    "xlmr": 3,
+    "mbert": 3
+  },
+  "summary": {
+    "mizbert": {
+      "n": 3,
+      "micro_mean": 0.8789,
+      "micro_sd": 0.0012,
+      "macro_mean": 0.7281,
+      "macro_sd": 0.0023,
+      "micro_all": [
+        0.8788,
+        0.8802,
+        0.8778
+      ],
+      "macro_all": [
+        0.7274,
+        0.7306,
+        0.7262
+      ]
+    },
+    "xlmr": {
+      "n": 3,
+      "micro_mean": 0.8725,
+      "micro_sd": 0.0012,
+      "macro_mean": 0.7115,
+      "macro_sd": 0.0023,
+      "micro_all": [
+        0.8739,
+        0.8716,
+        0.872
+      ],
+      "macro_all": [
+        0.7141,
+        0.7101,
+        0.7103
+      ]
+    },
+    "mbert": {
+      "n": 3,
+      "micro_mean": 0.8812,
+      "micro_sd": 0.0008,
+      "macro_mean": 0.7359,
+      "macro_sd": 0.002,
+      "micro_all": [
+        0.881,
+        0.882,
+        0.8805
+      ],
+      "macro_all": [
+        0.7347,
+        0.7382,
+        0.7347
+      ]
+    }
+  },
+  "note": "seed 42 is the run reported in the main tables"
+}

@@ -1,0 +1,21 @@
+{
+  "model": "xlm-roberta-base",
+  "seed": 2,
+  "hours": 2.56,
+  "f1_micro": 0.872,
+  "f1_macro": 0.7103,
+  "token_accuracy_entity": 87.58,
+  "per_type": {
+    "EVENT": 0.4974,
+    "FAC": 0.5919,
+    "GPE": 0.877,
+    "LANGUAGE": 0.7741,
+    "LAW": 0.6933,
+    "LOC": 0.6837,
+    "NORP": 0.7774,
+    "ORG": 0.7893,
+    "PERSON": 0.9149,
+    "PRODUCT": 0.3693,
+    "WORK_OF_ART": 0.8444
+  }
+}

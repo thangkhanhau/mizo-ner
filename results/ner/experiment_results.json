@@ -1,0 +1,19 @@
+{
+  "model": "xlm-roberta-base",
+  "max_len": 64,
+  "epochs": 5,
+  "learning_rate": 2e-05,
+  "batch_size_effective": 64,
+  "train_sentences": 352941,
+  "dev_sentences": 44118,
+  "test_sentences": 44118,
+  "training_time_hours": 15.01,
+  "token_accuracy_all": 0.9784,
+  "token_accuracy_entity": 0.8207,
+  "micro_precision": 0.8378,
+  "micro_recall": 0.8686,
+  "micro_f1": 0.8529,
+  "macro_precision": 0.6703,
+  "macro_recall": 0.6993,
+  "macro_f1": 0.6803
+}

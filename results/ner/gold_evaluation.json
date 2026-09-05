@@ -1,0 +1,119 @@
+{
+  "gold_source": "Ghosh et al. 2025, iHub-Data",
+  "mapping": {
+    "NEP": "PERSON",
+    "NEO": "ORG",
+    "NEF": "FAC",
+    "NEL": "LOCATION"
+  },
+  "excluded": [
+    "KEYWORD",
+    "NEAR",
+    "NEDA",
+    "NEMI",
+    "NETE",
+    "NETI",
+    "NEU"
+  ],
+  "note": "Scores cover the four mapped types only and are NOT comparable to the macro F1 of 66.79 reported by Ghosh et al., which is computed over their full label set including NEMI and KEYWORD.",
+  "test_sentences": 447,
+  "test_entities": 333,
+  "results": {
+    "xlmr": {
+      "precision": 0.1373,
+      "recall": 0.2883,
+      "f1_gold": 0.186,
+      "f1_silver_selftest": 0.8739,
+      "per_type": {
+        "FAC": {
+          "precision": 0.1429,
+          "recall": 0.0645,
+          "f1": 0.0889,
+          "support": 31
+        },
+        "LOCATION": {
+          "precision": 0.2584,
+          "recall": 0.4381,
+          "f1": 0.3251,
+          "support": 105
+        },
+        "ORG": {
+          "precision": 0.0819,
+          "recall": 0.2105,
+          "f1": 0.1179,
+          "support": 114
+        },
+        "PERSON": {
+          "precision": 0.1121,
+          "recall": 0.2892,
+          "f1": 0.1616,
+          "support": 83
+        }
+      }
+    },
+    "mizbert": {
+      "precision": 0.1407,
+      "recall": 0.3033,
+      "f1_gold": 0.1922,
+      "f1_silver_selftest": 0.8788,
+      "per_type": {
+        "FAC": {
+          "precision": 0.375,
+          "recall": 0.0968,
+          "f1": 0.1538,
+          "support": 31
+        },
+        "LOCATION": {
+          "precision": 0.2573,
+          "recall": 0.419,
+          "f1": 0.3188,
+          "support": 105
+        },
+        "ORG": {
+          "precision": 0.0723,
+          "recall": 0.2105,
+          "f1": 0.1076,
+          "support": 114
+        },
+        "PERSON": {
+          "precision": 0.1449,
+          "recall": 0.3614,
+          "f1": 0.2069,
+          "support": 83
+        }
+      }
+    },
+    "mbert": {
+      "precision": 0.1361,
+      "recall": 0.2943,
+      "f1_gold": 0.1861,
+      "f1_silver_selftest": 0.881,
+      "per_type": {
+        "FAC": {
+          "precision": 0.0909,
+          "recall": 0.0645,
+          "f1": 0.0755,
+          "support": 31
+        },
+        "LOCATION": {
+          "precision": 0.2848,
+          "recall": 0.4286,
+          "f1": 0.3422,
+          "support": 105
+        },
+        "ORG": {
+          "precision": 0.0716,
+          "recall": 0.2105,
+          "f1": 0.1069,
+          "support": 114
+        },
+        "PERSON": {
+          "precision": 0.1317,
+          "recall": 0.3253,
+          "f1": 0.1875,
+          "support": 83
+        }
+      }
+    }
+  }
+}

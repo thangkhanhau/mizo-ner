@@ -1,0 +1,14 @@
+data/*.json
+data/*.jsonl
+data/*.txt
+models/
+*.safetensors
+*.bin
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out

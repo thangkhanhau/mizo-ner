@@ -1,0 +1,70 @@
+{
+  "sentences": 441178,
+  "entities_in_corpus": 590655,
+  "entities_tagged_old": 469449,
+  "entities_tagged_new": 586552,
+  "coverage_old_pct": 79.48,
+  "coverage_new_pct": 99.31,
+  "per_type": {
+    "PERSON": {
+      "corpus": 326978,
+      "old": 258439,
+      "new": 325709
+    },
+    "LANGUAGE": {
+      "corpus": 4655,
+      "old": 4410,
+      "new": 4614
+    },
+    "GPE": {
+      "corpus": 116495,
+      "old": 83462,
+      "new": 115177
+    },
+    "NORP": {
+      "corpus": 19726,
+      "old": 18561,
+      "new": 19510
+    },
+    "ORG": {
+      "corpus": 104485,
+      "old": 90146,
+      "new": 103370
+    },
+    "WORK_OF_ART": {
+      "corpus": 3886,
+      "old": 2788,
+      "new": 3815
+    },
+    "EVENT": {
+      "corpus": 884,
+      "old": 744,
+      "new": 882
+    },
+    "LAW": {
+      "corpus": 581,
+      "old": 510,
+      "new": 581
+    },
+    "LOC": {
+      "corpus": 6857,
+      "old": 5867,
+      "new": 6826
+    },
+    "PRODUCT": {
+      "corpus": 2934,
+      "old": 2564,
+      "new": 2896
+    },
+    "FAC": {
+      "corpus": 3174,
+      "old": 1958,
+      "new": 3172
+    }
+  },
+  "splits": {
+    "train": 352941,
+    "test": 44118,
+    "dev": 44118
+  }
+}

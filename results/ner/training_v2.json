@@ -1,0 +1,55 @@
+{
+  "model": "xlm-roberta-base",
+  "max_len": 96,
+  "epochs": 5,
+  "learning_rate": 2e-05,
+  "batch": 64,
+  "grad_accum": 1,
+  "effective_batch": 64,
+  "training_hours": 2.57,
+  "train_sentences": 352941,
+  "dev_sentences": 44118,
+  "test_sentences": 44118,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.0859,
+      "dev_loss": 0.09419994056224823,
+      "precision": 0.8035108043313864,
+      "recall": 0.850764067530963,
+      "f1": 0.8264625568887051
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0715,
+      "dev_loss": 0.07975703477859497,
+      "precision": 0.84710966136463,
+      "recall": 0.8582940084158163,
+      "f1": 0.85266516040043
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0623,
+      "dev_loss": 0.07466831803321838,
+      "precision": 0.8478745725189578,
+      "recall": 0.8743079098451422,
+      "f1": 0.8608883819237093
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0559,
+      "dev_loss": 0.0722665786743164,
+      "precision": 0.8624394495566619,
+      "recall": 0.8765737065367383,
+      "f1": 0.8694491382223725
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0544,
+      "dev_loss": 0.07235859334468842,
+      "precision": 0.8647699332630839,
+      "recall": 0.8807986507436243,
+      "f1": 0.872710699998312
+    }
+  ]
+}

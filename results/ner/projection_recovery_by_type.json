@@ -1,0 +1,93 @@
+{
+  "subset_pairs": 2591,
+  "entities": 3137,
+  "exact": 1696,
+  "suffix": 2093,
+  "exact_pct": 54.06,
+  "suffix_pct": 66.72,
+  "published": {
+    "total": 5142,
+    "exact": 213,
+    "suffix": 2155
+  },
+  "reproduces_published": false,
+  "by_type": {
+    "PERSON": {
+      "entities": 1162,
+      "exact": 633,
+      "suffix": 792,
+      "exact_pct": 54.48,
+      "suffix_pct": 68.16
+    },
+    "ORG": {
+      "entities": 712,
+      "exact": 358,
+      "suffix": 411,
+      "exact_pct": 50.28,
+      "suffix_pct": 57.72
+    },
+    "GPE": {
+      "entities": 694,
+      "exact": 471,
+      "suffix": 618,
+      "exact_pct": 67.87,
+      "suffix_pct": 89.05
+    },
+    "NORP": {
+      "entities": 286,
+      "exact": 156,
+      "suffix": 164,
+      "exact_pct": 54.55,
+      "suffix_pct": 57.34
+    },
+    "WORK_OF_ART": {
+      "entities": 93,
+      "exact": 33,
+      "suffix": 45,
+      "exact_pct": 35.48,
+      "suffix_pct": 48.39
+    },
+    "LOC": {
+      "entities": 76,
+      "exact": 18,
+      "suffix": 28,
+      "exact_pct": 23.68,
+      "suffix_pct": 36.84
+    },
+    "LANGUAGE": {
+      "entities": 50,
+      "exact": 15,
+      "suffix": 15,
+      "exact_pct": 30.0,
+      "suffix_pct": 30.0
+    },
+    "FAC": {
+      "entities": 28,
+      "exact": 4,
+      "suffix": 9,
+      "exact_pct": 14.29,
+      "suffix_pct": 32.14
+    },
+    "PRODUCT": {
+      "entities": 17,
+      "exact": 6,
+      "suffix": 8,
+      "exact_pct": 35.29,
+      "suffix_pct": 47.06
+    },
+    "EVENT": {
+      "entities": 15,
+      "exact": 1,
+      "suffix": 2,
+      "exact_pct": 6.67,
+      "suffix_pct": 13.33
+    },
+    "LAW": {
+      "entities": 4,
+      "exact": 1,
+      "suffix": 1,
+      "exact_pct": 25.0,
+      "suffix_pct": 25.0
+    }
+  }
+}

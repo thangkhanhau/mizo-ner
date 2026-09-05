@@ -1,0 +1,26 @@
+{
+  "variant": "plain",
+  "model": "Helsinki-NLP/opus-mt-mul-en",
+  "hours": 0.95,
+  "max_src": 128,
+  "max_tgt": 128,
+  "batch": 32,
+  "grad_accum": 2,
+  "epochs": 3,
+  "lr": 5e-05,
+  "train_loss": 0.857719672216128,
+  "history": [
+    {
+      "epoch": 1.0,
+      "eval_loss": 0.747797429561615
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 0.6593713760375977
+    },
+    {
+      "epoch": 3.0,
+      "eval_loss": 0.6274227499961853
+    }
+  ]
+}

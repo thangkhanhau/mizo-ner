@@ -1,0 +1,105 @@
+{
+  "reference_entities": 31280,
+  "sentences": 22059,
+  "retention": {
+    "baseline": 96.59,
+    "marked": 97.42,
+    "predicted": 96.1,
+    "predicted_raw": 95.29
+  },
+  "retention_delta_vs_baseline": {
+    "marked": 0.82,
+    "predicted": -0.5,
+    "predicted_raw": -1.3
+  },
+  "per_type": {
+    "PERSON": {
+      "n": 11490,
+      "baseline": 96.68,
+      "marked": 97.58,
+      "predicted": 95.07
+    },
+    "ORG": {
+      "n": 8489,
+      "baseline": 96.01,
+      "marked": 96.91,
+      "predicted": 96.28
+    },
+    "GPE": {
+      "n": 8435,
+      "baseline": 98.46,
+      "marked": 98.86,
+      "predicted": 98.48
+    },
+    "NORP": {
+      "n": 1310,
+      "baseline": 92.37,
+      "marked": 94.2,
+      "predicted": 92.82
+    },
+    "LOC": {
+      "n": 430,
+      "baseline": 91.63,
+      "marked": 93.26,
+      "predicted": 93.02
+    },
+    "PRODUCT": {
+      "n": 288,
+      "baseline": 95.14,
+      "marked": 95.83,
+      "predicted": 93.4
+    },
+    "LANGUAGE": {
+      "n": 264,
+      "baseline": 99.62,
+      "marked": 100.0,
+      "predicted": 99.62
+    },
+    "WORK_OF_ART": {
+      "n": 243,
+      "baseline": 89.3,
+      "marked": 90.95,
+      "predicted": 90.95
+    },
+    "FAC": {
+      "n": 219,
+      "baseline": 88.58,
+      "marked": 90.87,
+      "predicted": 85.84
+    },
+    "EVENT": {
+      "n": 79,
+      "baseline": 87.34,
+      "marked": 87.34,
+      "predicted": 86.08
+    },
+    "LAW": {
+      "n": 33,
+      "baseline": 90.91,
+      "marked": 90.91,
+      "predicted": 90.91
+    }
+  },
+  "mcnemar": {
+    "oracle vs baseline": {
+      "only_a": 410,
+      "only_b": 152,
+      "p": 2.343162258267758e-28
+    },
+    "predicted vs baseline": {
+      "only_a": 322,
+      "only_b": 477,
+      "p": 4.638235175532516e-08
+    },
+    "oracle vs predicted": {
+      "only_a": 445,
+      "only_b": 32,
+      "p": 3.736894743921499e-94
+    },
+    "raw vs stem-aligned": {
+      "only_a": 43,
+      "only_b": 294,
+      "p": 4.101934865332857e-47
+    }
+  }
+}

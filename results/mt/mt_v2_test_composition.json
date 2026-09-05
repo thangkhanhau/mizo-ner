@@ -1,0 +1,17 @@
+{
+  "test_sentences": 22059,
+  "test_sentences_with_entity": 22059,
+  "test_sentences_by_type": {
+    "PERSON": 13719,
+    "GPE": 5077,
+    "ORG": 4645,
+    "LANGUAGE": 226,
+    "WORK_OF_ART": 201,
+    "LOC": 341,
+    "NORP": 1000,
+    "FAC": 166,
+    "PRODUCT": 174,
+    "EVENT": 31,
+    "LAW": 21
+  }
+}

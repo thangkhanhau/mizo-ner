@@ -1,0 +1,106 @@
+{
+  "gold_sentences": 300,
+  "gold_tokens": 3644,
+  "gold_entities": 420,
+  "matching": "overlap (projection marks stems, annotators tagged whole tokens)",
+  "projection_vs_gold": {
+    "precision": 0.63,
+    "recall": 0.6,
+    "f1": 0.6146,
+    "matched": 252,
+    "spurious": 148,
+    "missed": 168
+  },
+  "projection_per_type": {
+    "PERSON": {
+      "gold": 237,
+      "predicted": 224,
+      "tp": 187,
+      "fp": 37,
+      "fn": 50
+    },
+    "NORP": {
+      "gold": 17,
+      "predicted": 17,
+      "tp": 2,
+      "fp": 15,
+      "fn": 15
+    },
+    "LOC": {
+      "gold": 40,
+      "predicted": 5,
+      "tp": 1,
+      "fp": 4,
+      "fn": 39
+    },
+    "GPE": {
+      "gold": 66,
+      "predicted": 75,
+      "tp": 36,
+      "fp": 39,
+      "fn": 30
+    },
+    "ORG": {
+      "gold": 53,
+      "predicted": 64,
+      "tp": 24,
+      "fp": 40,
+      "fn": 29
+    },
+    "EVENT": {
+      "gold": 2,
+      "predicted": 1,
+      "tp": 0,
+      "fp": 1,
+      "fn": 2
+    },
+    "FAC": {
+      "gold": 1,
+      "predicted": 5,
+      "tp": 0,
+      "fp": 5,
+      "fn": 1
+    },
+    "WORK_OF_ART": {
+      "gold": 0,
+      "predicted": 5,
+      "tp": 0,
+      "fp": 5,
+      "fn": 0
+    },
+    "PRODUCT": {
+      "gold": 0,
+      "predicted": 2,
+      "tp": 0,
+      "fp": 2,
+      "fn": 0
+    },
+    "LANGUAGE": {
+      "gold": 4,
+      "predicted": 2,
+      "tp": 2,
+      "fp": 0,
+      "fn": 2
+    }
+  },
+  "models_vs_gold": {
+    "xlmr": {
+      "precision": 0.6263,
+      "recall": 0.5905,
+      "f1_gold": 0.6078,
+      "f1_silver": 0.8739
+    },
+    "mizbert": {
+      "precision": 0.6599,
+      "recall": 0.6238,
+      "f1_gold": 0.6414,
+      "f1_silver": 0.8788
+    },
+    "mbert": {
+      "precision": 0.62,
+      "recall": 0.5905,
+      "f1_gold": 0.6049,
+      "f1_silver": 0.881
+    }
+  }
+}

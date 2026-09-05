@@ -1,0 +1,21 @@
+{
+  "model": "bert-base-multilingual-cased",
+  "seed": 2,
+  "hours": 9.41,
+  "f1_micro": 0.8805,
+  "f1_macro": 0.7347,
+  "token_accuracy_entity": 88.29,
+  "per_type": {
+    "EVENT": 0.5729,
+    "FAC": 0.6246,
+    "GPE": 0.8842,
+    "LANGUAGE": 0.7791,
+    "LAW": 0.7376,
+    "LOC": 0.7019,
+    "NORP": 0.7929,
+    "ORG": 0.8069,
+    "PERSON": 0.9212,
+    "PRODUCT": 0.4485,
+    "WORK_OF_ART": 0.8122
+  }
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: >-
+  Named Entity Recognition for Mizo: A Silver-Standard Corpus via
+  Cross-Lingual Projection and Its Effect on Machine Translation
+message: "If you use this resource, please cite the accompanying paper."
+type: dataset
+authors:
+  - name: "Thangkhanhau Haulai"
+  - name: "Jamal Hussain"
+  - name: "MS Dawngliani"
+  - name: "Verónica Vargas-Alejo"
+repository-code: "https://github.com/thangkhanhau/mizo-ner"
+license: CC-BY-4.0
+date-released: "2026-08-30"
+keywords:
+  - named entity recognition
+  - Mizo
+  - low-resource languages
+  - cross-lingual annotation projection
+  - Tibeto-Burman
