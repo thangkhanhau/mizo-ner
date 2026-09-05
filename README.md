@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22374729.svg)](https://doi.org/10.5281/zenodo.22374729)
 # Mizo Named Entity Recognition
 
 A silver-standard named entity corpus for Mizo (`lus`), a Tibeto-Burman
@@ -43,41 +44,7 @@ The projection is a good entity *detector* and a poor entity
 ## Reproducing the paper
 
 ```bash
-git clone https://github.com/thangkhanhau/mizo-ner
+git clone [https://github.com/thangkhanhau/mizo-ner](https://github.com/thangkhanhau/mizo-ner)
 cd mizo-ner
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-```
-
-Download the data into `data/` and the models into `models/` from the
-Hugging Face links above, then run `notebooks/` in numerical order.
-Metrics are written to `results/`, which is committed here so you can
-compare without rerunning anything.
-
-Hardware used: one NVIDIA RTX 3060 (12 GB). NER training 2.6 h, MT 1 h
-per system, CRF 20 min on CPU.
-
-## Known limitations
-
-- Labels are silver-standard; see the accuracy figure above.
-- Only entity-bearing sentences are retained, so the corpus is denser
-  in entities than running Mizo text.
-- Recovery reaches 66.7%; the missing third is missed systematically,
-  not at random.
-- 318 sentences (0.07%) carry mis-encoded characters inherited from the
-  source parallel corpus.
-- `LOC` is unreliable: spaCy assigns `GPE` to most place-like strings
-  on the English side and that bias transfers.
-
-## Licence
-
-Code under MIT (`LICENSE`). Data and models under CC BY 4.0
-(`LICENSE-DATA`).
-
-## Citation
-
-See `CITATION.cff`; add the DOI once the paper appears.
-
-## Contact
-
-Thangkhanhau Haulai — tka@gsc.edu.in
